@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        <%= title %>
+    </title>
+</head>
+
+<body class="bg-dark text-white">
+
+    <%- include('components/navbar') %>
+
+        <div id="container_content">
+
+            <div style="display: none;" id="not_logged"></div>
+
+            <div style="display: none;">
+              <div class="container mt-5">
+                <table class="table table-bordered text-white">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Option</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <!-- Créez 10 lignes avec un dropdown dans chaque ligne -->
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Exemple 1</td>
+                      <td>
+                        <select class="form-select">
+                          <option value="1">Option 1</option>
+                          <option value="2">Option 2</option>
+                          <option value="3">Option 3</option>
+                        </select>
+                      </td>
+                    </tr>
+                    <!-- Répétez cette structure pour les autres lignes -->
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+        </div>
+
+</body>
+
+</html>
+
+<script src="/javascripts/bets.js" defer></script>
