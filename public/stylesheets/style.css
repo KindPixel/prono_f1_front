@@ -1,3 +1,7 @@
+html {
+  background-color: #2e343b;
+}
+
 body {
   /* padding: 50px; */
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -15,10 +19,21 @@ a {
   top: 0;
   border-right: 1px solid #162636;
   height: 100%;
+  border-right: 1px solid gray;
 }
 
 #logo_nav {
   margin-right: 15px;
+}
+
+#container_content {
+  margin-left: 300px;
+  margin-right: 20px;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #2e343b; */
 }
 
 
