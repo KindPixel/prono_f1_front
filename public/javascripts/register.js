@@ -22,7 +22,7 @@ submit_register.on("click", function () {
 
     $.ajax({
         type: "POST",
-        url: "http://25.30.168.195:7777/f1/api/v1/users/register",
+        url: "http://localhost:7777/f1/api/v1/users/register",
         data: {
             email,
             password,

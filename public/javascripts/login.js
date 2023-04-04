@@ -7,7 +7,7 @@ submit_login.on("click", function () {
     
         $.ajax({
             type: "POST",
-            url: "http://25.30.168.195:7777/f1/api/v1/users/login",
+            url: "http://localhost:7777/f1/api/v1/users/login",
             data: {
                 email,
                 password

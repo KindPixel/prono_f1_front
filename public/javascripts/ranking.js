@@ -3,7 +3,7 @@ const table = $('.table')
 
 $.ajax({
     type: "POST",
-    url: "http://25.30.168.195:7777/f1/api/v1/users/leaderboard",
+    url: "http://localhost:7777/f1/api/v1/users/leaderboard",
     dataType: "JSON",
     complete: function (res) {
         console.log(res);
